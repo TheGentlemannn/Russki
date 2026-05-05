@@ -1,0 +1,12 @@
+import type { StoryScenario } from '../types/story.types';
+
+export const storyScenarios: StoryScenario[] = [
+  { id: 'metro', title: { en: 'Lost in the Metro', es: 'Perdido en el Metro' }, location: 'Московское метро', locationEmoji: '🚇', description: { en: 'You need to buy a ticket and find the right line', es: 'Necesitas comprar un boleto y encontrar la linea correcta' }, unlocksAfterLesson: 1, difficulty: 'easy', xpReward: 35 },
+  { id: 'cafe', title: { en: 'Ordering at a Cafe', es: 'Pidiendo en un Cafe' }, location: 'Кафе «Уют»', locationEmoji: '☕', description: { en: 'You order tea, coffee, and something small to eat', es: 'Pides te, cafe y algo pequeno para comer' }, unlocksAfterLesson: 2, difficulty: 'easy', xpReward: 40 },
+  { id: 'market', title: { en: 'At the Market', es: 'En el Mercado' }, location: 'Рынок', locationEmoji: '🛒', description: { en: 'You ask prices and buy fruit at a market', es: 'Preguntas precios y compras fruta en un mercado' }, unlocksAfterLesson: 3, difficulty: 'easy', xpReward: 45 },
+  { id: 'hotel', title: { en: 'Checking into a Hotel', es: 'Registrarse en el Hotel' }, location: 'Гостиница', locationEmoji: '🏨', description: { en: 'You check in and ask about your room', es: 'Te registras y preguntas por tu habitacion' }, unlocksAfterLesson: 4, difficulty: 'medium', xpReward: 50 },
+  { id: 'doctor', title: { en: 'At the Doctor', es: 'En el Medico' }, location: 'Поликлиника', locationEmoji: '🏥', description: { en: 'You explain a simple health problem', es: 'Explicas un problema de salud simple' }, unlocksAfterLesson: 5, difficulty: 'medium', xpReward: 55 },
+  { id: 'directions', title: { en: 'Asking for Directions', es: 'Pidiendo Direcciones' }, location: 'Улица', locationEmoji: '🗺️', description: { en: 'You ask how to get to a museum', es: 'Preguntas como llegar a un museo' }, unlocksAfterLesson: 6, difficulty: 'medium', xpReward: 60 },
+  { id: 'pharmacy', title: { en: 'At the Pharmacy', es: 'En la Farmacia' }, location: 'Аптека', locationEmoji: '💊', description: { en: 'You ask for medicine and understand instructions', es: 'Pides medicina y entiendes instrucciones' }, unlocksAfterLesson: 7, difficulty: 'hard', xpReward: 70 },
+  { id: 'train', title: { en: 'Buying a Train Ticket', es: 'Comprando Boleto de Tren' }, location: 'Вокзал', locationEmoji: '🚂', description: { en: 'You buy a train ticket and ask for the platform', es: 'Compras un boleto de tren y preguntas por la plataforma' }, unlocksAfterLesson: 8, difficulty: 'hard', xpReward: 80 }
+];

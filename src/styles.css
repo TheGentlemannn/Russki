@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  outline-color: #C0392B;
+}
